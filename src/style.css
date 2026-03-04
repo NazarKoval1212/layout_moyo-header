@@ -3,7 +3,7 @@
 body {
 margin: 0;
 font-family: Roboto, Arial, sans-serif;
-font-weight: 12px;
+font-size: 12px;
 }
 
 .nav__link {
@@ -11,7 +11,8 @@ font-weight: 12px;
 display: inline-flex;
 align-items: center;
 text-transform: uppercase;
-color:#000000
+color:#000000;
+text-decoration: none;
 }
 
 .nav__link.is-active,
@@ -35,14 +36,15 @@ right: 0;
 height: 4px;
 background: var(--color-blue);
 border-radius: 8px;
-bottom: -10px;
+bottom: 0px;
 
 }
 
-header {
+.header {
 display: flex;
 align-items: center;
 justify-content: space-between;
+padding-inline: 50px;
 }
 
 ul.nav {
